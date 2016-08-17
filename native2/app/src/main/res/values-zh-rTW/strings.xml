@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/*
+ ******************************************************************
+ * Licensed Materials - Property of IBM
+ *
+ * WebSphere Commerce
+ *
+ * (C) Copyright IBM Corp. 2013 All Rights Reserved.
+ *
+ * US Government Users Restricted Rights - Use, duplication or
+ * disclosure restricted by GSA ADP Schedule Contract with
+ * IBM Corp.
+ *******************************************************************
+ *
+ *******************************************************************
+ * The sample contained herein is provided to you "AS IS".
+ *
+ * It is furnished by IBM as a simple example and has not been  
+ * thoroughly tested
+ * under all conditions.  IBM, therefore, cannot guarantee its 
+ * reliability, serviceability or functionality.  
+ *
+ * This sample may include the names of individuals, companies, brands 
+ * and products in order to illustrate concepts as completely as 
+ * possible.  All of these names
+ * are fictitious and any similarity to the names and addresses used by 
+ * actual persons 
+ * or business enterprises is entirely coincidental.
+ *******************************************************************
+*/
+-->
+<resources>  
+  <!-- General purpose strings -->
+  <string name="error">錯誤</string>
+  <string name="close">關閉</string>
+  <string name="loading">載入中...</string>
+  <string name="search">搜尋</string>
+  
+  <!--  Settings Screen strings -->
+  <string name="summaryWLServerUrl">變更伺服器 URL：http[s]://網域或 IP 位址[:埠][/環境定義根目錄]</string>
+  <string name="titleWLServerUrl">伺服器 URL</string>
+  <string name="networkSettingsTitleWLServerUrl">網路設定</string>
+  <string name="OKTitleWLServerUrl">確定</string>
+  <string name="titleInvalidWLServerUrl">無效的 URL</string>
+  <string name="errorInvalidWLServerUrl">不是有效的 URL。有效的格式為 http[s]://網域或 IP 位址[:埠][/環境定義根目錄]</string>
+  <string name="serverAddress">伺服器位址</string>
+  <string name="changeServerAddress">變更伺服器 URL</string>
+  
+  <!--  Settings Screen: Web Resources category -->
+  <string name="wlWebResourcesCategory">Web 資源</string>
+  <string name="wlAppIdTitle">應用程式 ID</string>
+  <string name="wlAppVersionTitle">應用程式版本</string>
+  <string name="downloadingWebResourcesMessage">正在下載應用程式資源（以 KB 表示進度）</string>
+  
+  <!-- Direct Update -->
+  <string name="directUpdateDownloadingMessage">正在下載應用程式更新（以 KB 表示進度）</string>
+  
+  <!-- Application Dialog strings -->
+  <string name="addressTitle">地址</string>
+  
+  <!-- Error messages -->
+  <string name="errorGeneric">將停止應用程式。發生非預期的異常狀況︰</string>
+  <string name="errorConnectionTimeout">伺服器連線逾時。</string>
+  <string name="errorBarcodeScanProblem">在條碼掃描的期間發生錯誤。請重試掃描。</string>
+  <string name="errorBarcodeScanLaunch">啟動條碼掃描器時發生錯誤。</string>
+  <string name="errorContactsLaunch">存取您的聯絡人時發生錯誤。</string>
+  <string name="errorMapsLaunch">啟動對映時發生錯誤。</string>
+</resources>

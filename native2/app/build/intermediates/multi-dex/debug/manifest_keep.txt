@@ -1,0 +1,37 @@
+-keep class com.ibm.commerce.worklight.android.WCHybridApplication {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+-keep class com.ibm.commerce.worklight.android.WCHybrid { <init>(); }
+-keep class com.ibm.commerce.worklight.android.contacts.ContactsSelectorActivity { <init>(); }
+-keep class com.ibm.commerce.worklight.android.barcode.BarcodeScanActivity { <init>(); }
+-keep class com.ibm.commerce.worklight.android.maps.StoreMapActivity { <init>(); }
+-keep class com.ibm.commerce.worklight.android.search.SearchSuggestionsActivity { <init>(); }
+-keep class com.ibm.commerce.worklight.android.search.SearchSuggestionsProvider { <init>(); }
+-keep class com.worklight.common.WLSettingActivity { <init>(); }
+-keep class com.google.zxing.client.android.CaptureActivity { <init>(); }
+-keep class com.google.zxing.client.android.encode.EncodeActivity { <init>(); }
+-keep class com.ibm.commerce.worklight.android.ForegroundService { <init>(); }
+-keep class com.ibm.commerce.worklight.android.GCMIntentService { <init>(); }
+-keep class com.worklight.androidgap.push.WLBroadcastReceiver { <init>(); }
+-keep class com.google.android.gms.ads.AdActivity { <init>(); }
+-keep class com.google.android.gms.ads.purchase.InAppPurchaseActivity { <init>(); }
+-keep class com.google.android.gms.appinvite.PreviewActivity { <init>(); }
+-keep class com.google.android.gms.auth.api.signin.internal.SignInHubActivity { <init>(); }
+-keep class com.google.android.gms.auth.api.signin.RevocationBoundService { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementContentProvider { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementService { <init>(); }
+-keep class com.google.zxing.client.android.PreferencesActivity { <init>(); }
+-keep class com.google.zxing.client.android.book.SearchBookContentsActivity { <init>(); }
+-keep class com.google.zxing.client.android.share.ShareActivity { <init>(); }
+-keep class com.google.zxing.client.android.history.HistoryActivity { <init>(); }
+-keep class com.google.zxing.client.android.share.BookmarkPickerActivity { <init>(); }
+-keep class com.google.zxing.client.android.share.AppPickerActivity { <init>(); }
+-keep class com.google.zxing.client.android.HelpActivity { <init>(); }
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+-keep public class * extends java.lang.annotation.Annotation {
+    *;
+}

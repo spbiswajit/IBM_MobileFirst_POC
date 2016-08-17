@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\libraryProject\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\share_via_barcode.png",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\libraryProject\\build\\intermediates\\bundles\\debug\\res\\drawable\\share_via_barcode.png"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\libraryProject\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shopper_icon.png",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\libraryProject\\build\\intermediates\\bundles\\debug\\res\\drawable\\shopper_icon.png"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\libraryProject\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\launcher_icon.png",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\libraryProject\\build\\intermediates\\bundles\\debug\\res\\drawable\\launcher_icon.png"
+    }
+]

@@ -1,0 +1,218 @@
+[
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_book_contents_header.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\exploded-aar\\native2\\libraryProject\\unspecified\\res\\layout\\search_book_contents_header.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_book_contents.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\exploded-aar\\native2\\libraryProject\\unspecified\\res\\layout\\search_book_contents.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_item_prediction.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\layout\\place_autocomplete_item_prediction.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\history_list_item.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\exploded-aar\\native2\\libraryProject\\unspecified\\res\\layout\\history_list_item.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_book_contents_list_item.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\exploded-aar\\native2\\libraryProject\\unspecified\\res\\layout\\search_book_contents_list_item.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\encode.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\exploded-aar\\native2\\libraryProject\\unspecified\\res\\layout\\encode.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\progress_dialog.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\src\\main\\res\\layout\\progress_dialog.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\help.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\exploded-aar\\native2\\libraryProject\\unspecified\\res\\layout\\help.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\capture.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\exploded-aar\\native2\\libraryProject\\unspecified\\res\\layout\\capture.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_media_route_list_item.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\layout\\mr_media_route_list_item.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\map_layout.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\src\\main\\res\\layout\\map_layout.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_media_route_chooser_dialog.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\layout\\mr_media_route_chooser_dialog.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_item_powered_by_google.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\layout\\place_autocomplete_item_powered_by_google.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\share.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\exploded-aar\\native2\\libraryProject\\unspecified\\res\\layout\\share.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_progress.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\layout\\place_autocomplete_progress.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_fragment.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\layout\\place_autocomplete_fragment.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_media_route_controller_material_dialog_b.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\layout\\mr_media_route_controller_material_dialog_b.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bookmark_picker_list_item.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\exploded-aar\\native2\\libraryProject\\unspecified\\res\\layout\\bookmark_picker_list_item.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_list_menu_item_layout.xml"
+    }
+]

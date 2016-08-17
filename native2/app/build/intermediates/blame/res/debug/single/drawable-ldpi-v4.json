@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\map_pin.png",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\src\\main\\res\\drawable-ldpi\\map_pin.png"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\icon.png",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\src\\main\\res\\drawable-ldpi\\icon.png"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\push.png",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\src\\main\\res\\drawable-ldpi\\push.png"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\settings.png",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\src\\main\\res\\drawable-ldpi\\settings.png"
+    }
+]

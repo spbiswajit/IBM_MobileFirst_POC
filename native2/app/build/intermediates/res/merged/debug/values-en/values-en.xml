@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="OKTitleWLServerUrl">OK</string>
+    <string name="addressTitle">Address</string>
+    <string name="changeServerAddress">Change server URL</string>
+    <string name="close">Close</string>
+    <string name="directUpdateDownloadingMessage">Downloading application update (progress in kilobytes)</string>
+    <string name="downloadingWebResourcesMessage">Downloading application resources (progress in kilobytes)</string>
+    <string name="error">Error</string>
+    <string name="errorBarcodeScanLaunch">An error has occurred while launching the barcode scanner.</string>
+    <string name="errorBarcodeScanProblem">An error has occurred during the barcode scan. Try scanning again.</string>
+    <string name="errorConnectionTimeout">The server connection has timed out.</string>
+    <string name="errorContactsLaunch">An error has occurred while accessing your contacts.</string>
+    <string name="errorGeneric">The application will be stopped. An unexpected exception occurred: </string>
+    <string name="errorInvalidWLServerUrl">is not a valid URL. Valid format is http[s]://domain or IP address[:port][/context root]</string>
+    <string name="errorMapsLaunch">An error has occurred while launching the maps.</string>
+    <string name="loading">Loading ...</string>
+    <string name="networkSettingsTitleWLServerUrl">Network Settings</string>
+    <string name="search">Search</string>
+    <string name="serverAddress">Server Address</string>
+    <string name="summaryWLServerUrl">Change the server URL: http[s]://domain or IP address[:port][/context root]</string>
+    <string name="titleInvalidWLServerUrl">Invalid URL</string>
+    <string name="titleWLServerUrl">Server URL</string>
+    <string name="wlAppIdTitle">App ID</string>
+    <string name="wlAppVersionTitle">App Version</string>
+    <string name="wlWebResourcesCategory">Web Resources</string>
+</resources>

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\xml\\config.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\src\\main\\res\\xml\\config.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\xml\\searchable.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\src\\main\\res\\xml\\searchable.xml"
+    },
+    {
+        "merged": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preferences.xml",
+        "source": "G:\\IBM_MobileFirst\\Android_Studio_Workspace\\native2\\app\\build\\intermediates\\exploded-aar\\native2\\libraryProject\\unspecified\\res\\xml\\preferences.xml"
+    }
+]

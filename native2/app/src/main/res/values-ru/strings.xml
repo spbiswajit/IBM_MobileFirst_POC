@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/*
+ ******************************************************************
+ * Licensed Materials - Property of IBM
+ *
+ * WebSphere Commerce
+ *
+ * (C) Copyright IBM Corp. 2013 All Rights Reserved.
+ *
+ * US Government Users Restricted Rights - Use, duplication or
+ * disclosure restricted by GSA ADP Schedule Contract with
+ * IBM Corp.
+ *******************************************************************
+ *
+ *******************************************************************
+ * The sample contained herein is provided to you "AS IS".
+ *
+ * It is furnished by IBM as a simple example and has not been  
+ * thoroughly tested
+ * under all conditions.  IBM, therefore, cannot guarantee its 
+ * reliability, serviceability or functionality.  
+ *
+ * This sample may include the names of individuals, companies, brands 
+ * and products in order to illustrate concepts as completely as 
+ * possible.  All of these names
+ * are fictitious and any similarity to the names and addresses used by 
+ * actual persons 
+ * or business enterprises is entirely coincidental.
+ *******************************************************************
+*/
+-->
+<resources>  
+  <!-- General purpose strings -->
+  <string name="error">Ошибка</string>
+  <string name="close">Закрыть</string>
+  <string name="loading">Загрузка ...</string>
+  <string name="search">Поиск</string>
+  
+  <!--  Settings Screen strings -->
+  <string name="summaryWLServerUrl">Измените URL-адрес сервера: http[s]://домен или IP-адрес[:порт][/корневой контекст]</string>
+  <string name="titleWLServerUrl">URL сервера</string>
+  <string name="networkSettingsTitleWLServerUrl">Параметры сети</string>
+  <string name="OKTitleWLServerUrl">OK</string>
+  <string name="titleInvalidWLServerUrl">Недопустимый URL адрес</string>
+  <string name="errorInvalidWLServerUrl">не является допустимым URL-адресом. Допустимым форматом является следующий: http[s]://домен или IP-адрес[:порт][/корневой контекст]</string>
+  <string name="serverAddress">Адрес сервера</string>
+  <string name="changeServerAddress">Измените URL-адрес сервера</string>
+  
+  <!--  Settings Screen: Web Resources category -->
+  <string name="wlWebResourcesCategory">Веб-ресурсы</string>
+  <string name="wlAppIdTitle">ИД приложения</string>
+  <string name="wlAppVersionTitle">Версия приложения</string>
+  <string name="downloadingWebResourcesMessage">Загрузка ресурсов приложения (загружено килобайт)</string>
+  
+  <!-- Direct Update -->
+  <string name="directUpdateDownloadingMessage">Загрузка обновления приложения (загружено килобайт)</string>
+  
+  <!-- Application Dialog strings -->
+  <string name="addressTitle">Адрес</string>
+  
+  <!-- Error messages -->
+  <string name="errorGeneric">Приложение будет остановлено. Возникла непредвиденная исключительная ситуация: </string>
+  <string name="errorConnectionTimeout">Возник тайм-аут соединения с сервером.</string>
+  <string name="errorBarcodeScanProblem">Произошла ошибка в ходе сканирования штрих-кода. Повторите попытку.</string>
+  <string name="errorBarcodeScanLaunch">Произошла ошибка при запуске сканера штрих-кодов.</string>
+  <string name="errorContactsLaunch">Произошла ошибка при обращении к контактам.</string>
+  <string name="errorMapsLaunch">Произошла ошибка при запуске карт.</string>
+</resources>

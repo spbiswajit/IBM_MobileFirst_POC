@@ -1,0 +1,188 @@
+<!DOCTYPE HTML><!--
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  Licensed Materials - Property of IBM
+  WebSphere Commerce
+  (C) Copyright IBM Corp. 2013 All Rights Reserved.
+  US Government Users Restricted Rights - Use, duplication or
+  disclosure restricted by GSA ADP Schedule Contract with
+  IBM Corp.
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+//* The sample contained herein is provided to you "AS IS".
+//*
+//* It is furnished by IBM as a simple example and has not been  
+//* thoroughly tested
+//* under all conditions.  IBM, therefore, cannot guarantee its 
+//* reliability, serviceability or functionality.  
+//*
+//* This sample may include the names of individuals, companies, brands 
+//* and products in order to illustrate concepts as completely as 
+//* possible.  All of these names
+//* are fictitious and any similarity to the names and addresses used by 
+//* actual persons 
+//* or business enterprises is entirely coincidental.
+--><html id="WCHybridHtmlContent">
+    <head>
+        <meta charset="UTF-8">
+        <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0" name="viewport">
+        <title>WCHybrid</title>
+        <link href="worklight/worklight.css" rel="stylesheet">
+        <link href="images/ic_launcher_aurora.png" rel="shortcut icon">
+        <link href="images/ic_launcher_aurora.png" rel="apple-touch-icon">
+        <link href="css/WCHybrid.css" rel="stylesheet">
+        <script>
+		// Define WL namespace.
+		var WL = WL ? WL : {};
+		/**
+		 * WLClient configuration variables.
+		 * Values are injected by the deployer that packs the gadget.
+		 */
+		 WL.StaticAppProps = {
+   "APP_DISPLAY_NAME": "Aurora WLHybrid",
+   "APP_ID": "WCHybrid",
+   "APP_SERVICES_URL": "\/apps\/services\/",
+   "APP_VERSION": "1.18",
+   "ENVIRONMENT": "android",
+   "LOGIN_DISPLAY_TYPE": "embedded",
+   "WORKLIGHT_NATIVE_VERSION": "2674313786",
+   "WORKLIGHT_PLATFORM_VERSION": "7.1.0.0",
+   "WORKLIGHT_ROOT_URL": "\/apps\/services\/api\/WCHybrid\/android\/"
+};
+</script>
+		<script src="worklight/cordova.js"></script>
+		<script src="worklight/wljq.js"></script>
+		<script src="worklight/worklight.js"></script>
+		<script src="worklight/checksum.js"></script>
+		<script src="worklight/Tealeaf.min.js"></script>
+		<script src="worklight/jsonstore.js"></script>
+    </head>
+    <body class="bg_splash" id="content">
+        <!-- application UI goes here -->
+        <div class="wrapper">
+            <div class="splash_logo_container splash_logo_position splash_logo" id="splashscreen">
+                <div class="hidden" id="slide_text"></div>
+            </div>
+            <div class="hidden" id="dev_settings_page">
+                <div class="header_logo"></div>
+                <div class="item_wrapper" id="dev_settings_msg"></div>
+                <form id="dev_settings_form" method="post" name="dev_settings_form">
+                    <div id="devSettings">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <label for="WC_HostName">
+                                            <span class="required">*</span>
+                                            <span id="hostName"></span>
+                                        </label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input id="WC_HostName" name="WC_HostName" type="text" value="">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="WC_StoreId">
+                                            <span class="required">*</span>
+                                            <span id="storeId"></span>
+                                        </label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input id="WC_StoreId" name="WC_StoreId" type="number" value="">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="WC_StoreName">
+                                            <span class="required">*</span>
+                                            <span id="storeName"></span>
+                                        </label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input id="WC_StoreName" name="WC_StoreName" type="text" value="">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="WC_CatalogId">
+                                            <span class="required">*</span>
+                                            <span id="catalogId"></span>
+                                        </label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input id="WC_CatalogId" name="WC_CatalogId" type="number" value="">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="WC_LangId">
+                                            <span class="required">*</span>
+                                            <span id="langId"></span>
+                                        </label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <select id="WC_LangId" name="WC_LangId"></select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="WC_PreviewToken">
+                                            <span id="previewToken"></span>
+                                        </label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input id="WC_PreviewToken" name="WC_PreviewToken" type="text" value="">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input id="save_button" name="save" onclick="WCLocalStorageJS.saveDevSettings();" type="button" value="Save">
+                                    </td>
+                                    <td>
+                                        <input id="reset_button" name="reset" onclick="WCLocalStorageJS.resetDevSettings();" type="button" value="Reset">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </form>
+                <div class="item_wrapper" id="app_version">
+                    <span id="app_version_title"></span>
+                    <span id="app_version_value"></span>
+                </div>
+            </div>
+        </div>
+        <script src="js/version.js"></script>
+        <script src="js/messages.js"></script>
+        <script src="js/messages_en_US.js"></script>
+        <script src="js/messages_fr_FR.js"></script>
+        <script src="js/messages_de_DE.js"></script>
+        <script src="js/messages_it_IT.js"></script>
+        <script src="js/messages_es_ES.js"></script>
+        <script src="js/messages_pt_BR.js"></script>
+        <script src="js/messages_zh_CN.js"></script>
+        <script src="js/messages_zh_TW.js"></script>
+        <script src="js/messages_ko_KR.js"></script>
+        <script src="js/messages_ja_JP.js"></script>
+        <script src="js/messages_iw_IL.js"></script>
+        <script src="js/messages_tr_TR.js"></script>
+        <script src="js/messages_ru_RU.js"></script>
+        <script src="js/messages_ro_RO.js"></script>
+        <script src="js/messages_pl_PL.js"></script>
+        <script src="js/messages_ar_EG.js"></script>
+        <script src="js/WCLocalStorage.js"></script>
+        <script src="js/WCHybrid.js"></script>
+        <script src="js/initOptions.js"></script>
+    </body>
+</html>

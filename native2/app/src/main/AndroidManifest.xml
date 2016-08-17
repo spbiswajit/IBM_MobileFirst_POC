@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+/*
+ ******************************************************************
+ * Licensed Materials - Property of IBM
+ *
+ * WebSphere Commerce
+ *
+ * (C) Copyright IBM Corp. 2013, 2014 All Rights Reserved.
+ *
+ * US Government Users Restricted Rights - Use, duplication or
+ * disclosure restricted by GSA ADP Schedule Contract with
+ * IBM Corp.
+ *******************************************************************
+ *
+ *******************************************************************
+ * The sample contained herein is provided to you "AS IS".
+ *
+ * It is furnished by IBM as a simple example and has not been
+ * thoroughly tested
+ * under all conditions.  IBM, therefore, cannot guarantee its
+ * reliability, serviceability or functionality.
+ *
+ * This sample may include the names of individuals, companies, brands
+ * and products in order to illustrate concepts as completely as
+ * possible.  All of these names
+ * are fictitious and any similarity to the names and addresses used by
+ * actual persons
+ * or business enterprises is entirely coincidental.
+ *******************************************************************
+*/
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ibm.commerce.worklight.android"
+    android:installLocation="auto"
+    android:versionCode="19"
+    android:versionName="1.18">
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="10" />
+    <supports-screens
+        android:anyDensity="false"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="false"
+        android:smallScreens="true" />
+    <!-- App permissions -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CLEAR_APP_CACHE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <!-- Push permissions -->
+    <permission
+        android:name="com.ibm.commerce.worklight.android.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.ibm.commerce.worklight.android.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+
+    <application
+        android:name=".WCHybridApplication"
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        tools:replace="android:icon">
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="" />
+
+        <activity
+            android:name=".WCHybrid"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.ibm.commerce.worklight.android.WCHybrid.NOTIFICATION" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".contacts.ContactsSelectorActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".barcode.BarcodeScanActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".maps.StoreMapActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".search.SearchSuggestionsActivity"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+            <meta-data
+                android:name="android.app.default_searchable"
+                android:value=".search.SearchSuggestionsActivity" />
+        </activity>
+        <!-- default searchable Activity for the app -->
+        <meta-data
+            android:name="android.app.default_searchable"
+            android:value=".search.SearchSuggestionsActivity" />
+        <provider
+            android:name=".search.SearchSuggestionsProvider"
+            android:authorities="com.ibm.commerce.worklight.android.search.SearchSuggestionsProvider" />
+        <!-- Preference Activity  -->
+        <activity
+            android:name="com.worklight.common.WLSettingActivity"
+            android:label="Worklight Settings" />
+
+        <activity
+            android:name="com.google.zxing.client.android.CaptureActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="com.phonegap.plugins.barcodescanner.SCAN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.google.zxing.client.android.encode.EncodeActivity"
+            android:label="@string/share_name">
+            <intent-filter>
+                <action android:name="com.phonegap.plugins.barcodescanner.ENCODE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- Push service  -->
+        <!-- In order to use the c2dm library, an application must declare a class with the name C2DMReceiver, in its own package, extending com.google.android.c2dm.C2DMBaseReceiver 
+			It must also include this section in the manifest, replacing "com.google.android.apps.chrometophone" with its package name. -->
+        <service android:name="com.ibm.commerce.worklight.android.ForegroundService" />
+        <service android:name="com.ibm.commerce.worklight.android.GCMIntentService" />
+        <!-- Only google service can send data messages for the app. If permission is not set - any other app can generate it -->
+        <receiver
+            android:name="com.worklight.androidgap.push.WLBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <!-- Receive the actual message -->
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <category android:name="com.ibm.commerce.worklight.android" />
+            </intent-filter>
+            <!-- Receive the registration id -->
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+                <category android:name="com.ibm.commerce.worklight.android" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

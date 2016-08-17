@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/*
+ ******************************************************************
+ * Licensed Materials - Property of IBM
+ *
+ * WebSphere Commerce
+ *
+ * (C) Copyright IBM Corp. 2013 All Rights Reserved.
+ *
+ * US Government Users Restricted Rights - Use, duplication or
+ * disclosure restricted by GSA ADP Schedule Contract with
+ * IBM Corp.
+ *******************************************************************
+ *
+ *******************************************************************
+ * The sample contained herein is provided to you "AS IS".
+ *
+ * It is furnished by IBM as a simple example and has not been  
+ * thoroughly tested
+ * under all conditions.  IBM, therefore, cannot guarantee its 
+ * reliability, serviceability or functionality.  
+ *
+ * This sample may include the names of individuals, companies, brands 
+ * and products in order to illustrate concepts as completely as 
+ * possible.  All of these names
+ * are fictitious and any similarity to the names and addresses used by 
+ * actual persons 
+ * or business enterprises is entirely coincidental.
+ *******************************************************************
+*/
+-->
+<resources>  
+  <!-- General purpose strings -->
+  <string name="error">Error</string>
+  <string name="close">Close</string>
+  <string name="loading">Loading ...</string>
+  <string name="search">Search</string>
+  
+  <!--  Settings Screen strings -->
+  <string name="summaryWLServerUrl">Change the server URL: http[s]://domain or IP address[:port][/context root]</string>
+  <string name="titleWLServerUrl">Server URL</string>
+  <string name="networkSettingsTitleWLServerUrl">Network Settings</string>
+  <string name="OKTitleWLServerUrl">OK</string>
+  <string name="titleInvalidWLServerUrl">Invalid URL</string>
+  <string name="errorInvalidWLServerUrl">is not a valid URL. Valid format is http[s]://domain or IP address[:port][/context root]</string>
+  <string name="serverAddress">Server Address</string>
+  <string name="changeServerAddress">Change server URL</string>
+  
+  <!--  Settings Screen: Web Resources category -->
+  <string name="wlWebResourcesCategory">Web Resources</string>
+  <string name="wlAppIdTitle">App ID</string>
+  <string name="wlAppVersionTitle">App Version</string>
+  <string name="downloadingWebResourcesMessage">Downloading application resources (progress in kilobytes)</string>
+  
+  <!-- Direct Update -->
+  <string name="directUpdateDownloadingMessage">Downloading application update (progress in kilobytes)</string>
+  
+  <!-- Application Dialog strings -->
+  <string name="addressTitle">Address</string>
+  
+  <!-- Error messages -->
+  <string name="errorGeneric">The application will be stopped. An unexpected exception occurred: </string>
+  <string name="errorConnectionTimeout">The server connection has timed out.</string>
+  <string name="errorBarcodeScanProblem">An error has occurred during the barcode scan. Try scanning again.</string>
+  <string name="errorBarcodeScanLaunch">An error has occurred while launching the barcode scanner.</string>
+  <string name="errorContactsLaunch">An error has occurred while accessing your contacts.</string>
+  <string name="errorMapsLaunch">An error has occurred while launching the maps.</string>
+</resources>

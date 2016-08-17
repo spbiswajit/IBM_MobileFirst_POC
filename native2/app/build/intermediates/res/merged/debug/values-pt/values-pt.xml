@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="OKTitleWLServerUrl">OK</string>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Navegar para a página inicial"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Navegar para cima"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Mais opções"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Concluído"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Ver tudo"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Selecione um app"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Pesquisar..."</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Limpar consulta"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Consulta de pesquisa"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Pesquisar"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Pesquisa por voz"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Compartilhar com"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Compartilhar com %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Recolher"</string>
+    <string name="addressTitle">Endereço</string>
+    <string name="app_picker_name">Aplicações</string>
+    <string name="bookmark_picker_name">Favoritos</string>
+    <string name="button_add_calendar">Adicionar ao calendário</string>
+    <string name="button_add_contact">Adicionar contacto</string>
+    <string name="button_back">Voltar</string>
+    <string name="button_book_search">Procurar livro</string>
+    <string name="button_cancel">Cancelar</string>
+    <string name="button_custom_product_search">Pesquisa Personalizada</string>
+    <string name="button_dial">Marcar número</string>
+    <string name="button_done">Feito</string>
+    <string name="button_email">Enviar e-mail</string>
+    <string name="button_get_directions">Obter direcções</string>
+    <string name="button_google_shopper">Shopper</string>
+    <string name="button_mms">Enviar MMS</string>
+    <string name="button_ok">OK</string>
+    <string name="button_open_browser">Abrir navegador</string>
+    <string name="button_product_search">Procurar produto</string>
+    <string name="button_search_book_contents">Pesquisar conteúdos</string>
+    <string name="button_share_app">Aplicação</string>
+    <string name="button_share_bookmark">Favorito</string>
+    <string name="button_share_by_email">Partilhar via e-mail</string>
+    <string name="button_share_by_sms">Partilhar via SMS</string>
+    <string name="button_share_clipboard">Área de transferência</string>
+    <string name="button_share_contact">Contacto</string>
+    <string name="button_show_map">Visualizar mapa</string>
+    <string name="button_sms">Enviar SMS</string>
+    <string name="button_web_search">Pesquisa na Web</string>
+    <string name="button_wifi">Conectar à rede</string>
+    <string name="changeServerAddress">Alterar URL do servidor</string>
+    <string name="close">Fechar</string>
+    <string msgid="2785372108150982144" name="common_google_play_services_api_unavailable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> exige um ou mais serviços do Google Play que não estão disponíveis no momento. Entre em contato com o desenvolvedor para receber ajuda."</string>
+    <string msgid="7334167077229901382" name="common_google_play_services_enable_button">"Ativar o Google Play Services"</string>
+    <string msgid="2016066508617425489" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> só funciona com o Google Play Services ativado."</string>
+    <string msgid="4763733806837472840" name="common_google_play_services_enable_title">"Ativar o Google Play Services"</string>
+    <string msgid="5765996826213593005" name="common_google_play_services_install_button">"Instalar o Google Play Services"</string>
+    <string msgid="1545874412485515659" name="common_google_play_services_install_text_phone">"<ns1:g id="APP_NAME">%1$s</ns1:g> não funciona sem o Google Play Services, o qual não está instalado no seu smartphone."</string>
+    <string msgid="2742131317258851812" name="common_google_play_services_install_text_tablet">"<ns1:g id="APP_NAME">%1$s</ns1:g> não funciona sem o Google Play Services, o qual não está instalado no seu tablet."</string>
+    <string msgid="2110712637922504348" name="common_google_play_services_install_title">"Instalar o Google Play Services"</string>
+    <string msgid="8004809446015217370" name="common_google_play_services_invalid_account_text">"A conta especificada não existe no dispositivo. Escolha outra conta."</string>
+    <string msgid="9894539456463288" name="common_google_play_services_invalid_account_title">"Conta inválida"</string>
+    <string msgid="2602915190038884860" name="common_google_play_services_network_error_text">"É necessária uma conexão de dados para conectar ao Google Play Services."</string>
+    <string msgid="5183831421651758225" name="common_google_play_services_network_error_title">"Erro na rede"</string>
+    <string msgid="3936796119014022295" name="common_google_play_services_notification_ticker">"Erro do Google Play Services"</string>
+    <string msgid="6951442375899151085" name="common_google_play_services_restricted_profile_text">"O acesso a contas a partir de um perfil restrito não é compatível."</string>
+    <string msgid="4958149393843193760" name="common_google_play_services_restricted_profile_title">"Perfil restrito"</string>
+    <string msgid="59739986196915578" name="common_google_play_services_sign_in_failed_text">"Erro ao fazer login na conta especificada. Escolha outra conta."</string>
+    <string msgid="8431204498860131150" name="common_google_play_services_sign_in_failed_title">"Falha de login"</string>
+    <string msgid="7170719956698345984" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> está tendo problemas com os serviços do Google Play. Se o problema persistir, entre em contato com o desenvolvedor para receber ajuda."</string>
+    <string msgid="4291190028362992831" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> depende do Google Play Services, o qual não é compatível com seu dispositivo. Entre em contato com o fabricante para receber ajuda."</string>
+    <string msgid="909734065366822541" name="common_google_play_services_unsupported_title">"Google Play Services"</string>
+    <string msgid="2221302284291941971" name="common_google_play_services_update_button">"Atualizar"</string>
+    <string msgid="6230553430311881723" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> só funciona com uma versão atualizada do Google Play Services."</string>
+    <string msgid="2926201203597631481" name="common_google_play_services_update_title">"Atualizar o Google Play Services"</string>
+    <string msgid="1576144479907495032" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> não funciona sem o Google Play Services, o qual está sendo atualizado no momento."</string>
+    <string msgid="1604540693139938838" name="common_google_play_services_updating_title">"Google Play Services em atualização"</string>
+    <string msgid="8334920661858223093" name="common_google_play_services_wear_update_text">"É necessária uma nova versão do Google Play Services. Ele será atualizado em breve."</string>
+    <string msgid="311697239335516384" name="common_open_on_phone">"Abrir no smartphone"</string>
+    <string msgid="3156914698180786012" name="common_signin_button_text">"Fazer login"</string>
+    <string msgid="1483290677806110088" name="common_signin_button_text_long">"Fazer login com o Google"</string>
+    <string name="contents_contact">Informação de contacto</string>
+    <string name="contents_email">Endereço de e-mail</string>
+    <string name="contents_location">Coordenadas geográficas</string>
+    <string name="contents_phone">Número de telefone</string>
+    <string name="contents_sms">Endereço SMS</string>
+    <string name="contents_text">Texto simples</string>
+    <string name="directUpdateDownloadingMessage">Fazendo download de atualização de aplicativo (progresso em kilobytes)</string>
+    <string name="downloadingWebResourcesMessage">Fazendo download de recursos de aplicativo (progresso em kilobytes)</string>
+    <string name="error">Erro</string>
+    <string name="errorBarcodeScanLaunch">Ocorreu um erro ao ativar o scanner do código de barras.</string>
+    <string name="errorBarcodeScanProblem">Ocorreu um erro durante a varredura do código de barras. Tente varrer novamente.</string>
+    <string name="errorConnectionTimeout">A conexão do servidor atingiu o tempo limite.</string>
+    <string name="errorContactsLaunch">Ocorreu um erro ao acessar seus contatos.</string>
+    <string name="errorGeneric">O aplicativo será interrompido. Ocorreu uma exceção inesperada: </string>
+    <string name="errorInvalidWLServerUrl">não é uma URL válida. O formato válido é http[s]://domínio ou endereço IP[:porta][/raiz de contexto]</string>
+    <string name="errorMapsLaunch">Ocorreu um erro ao ativar os mapas.</string>
+    <string name="history_clear_one_history_text">Limpar</string>
+    <string name="history_clear_text">Limpar histórico</string>
+    <string name="history_email_title">Histórico do Barcode Scanner</string>
+    <string name="history_empty">Vazio</string>
+    <string name="history_empty_detail">Não código de barras foram registrados</string>
+    <string name="history_send">Enviar histórico</string>
+    <string name="history_title">Histórico</string>
+    <string name="loading">Carregando ...</string>
+    <string name="menu_encode_mecard">Usar MECARD</string>
+    <string name="menu_encode_vcard">Usar vCard</string>
+    <string name="menu_help">Ajuda</string>
+    <string name="menu_history">Histórico</string>
+    <string name="menu_settings">Definições</string>
+    <string name="menu_share">Partilhar</string>
+    <string msgid="8327680881775995150" name="mr_media_route_button_content_description">"Transmitir"</string>
+    <string msgid="7553005460920830010" name="mr_media_route_chooser_searching">"Procurando dispositivos…"</string>
+    <string msgid="7106830097177242655" name="mr_media_route_chooser_title">"Conectar ao dispositivo"</string>
+    <string msgid="109793632378378069" name="mr_media_route_controller_disconnect">"Desconectar"</string>
+    <string msgid="3641544772007543920" name="mr_media_route_controller_no_info_available">"Nenhuma informação disponível"</string>
+    <string msgid="8315773974194466049" name="mr_media_route_controller_pause">"Pausar"</string>
+    <string msgid="5214423499524760404" name="mr_media_route_controller_play">"Reproduzir"</string>
+    <string msgid="379358765881274425" name="mr_media_route_controller_settings_description">"Configurações de rota"</string>
+    <string msgid="5398645111664294430" name="mr_media_route_controller_stop">"Interromper transmissão"</string>
+    <string msgid="5441529851481176817" name="mr_system_route_name">"Sistema"</string>
+    <string msgid="7498112907524977311" name="mr_user_route_category_name">"Dispositivos"</string>
+    <string name="msg_bulk_mode_scanned">Modo em massa: código de barras lido e guardado</string>
+    <string name="msg_camera_framework_bug">Desculpe, a câmera do Android encontrou um problema. Poderá precisar de reiniciar o dispositivo.</string>
+    <string name="msg_default_format">Formato</string>
+    <string name="msg_default_meta">Metadata</string>
+    <string name="msg_default_mms_subject">Olá</string>
+    <string name="msg_default_status">Alinhar código de barras com o exemplo para ser lido.</string>
+    <string name="msg_default_time">Tempo</string>
+    <string name="msg_default_type">Tipo</string>
+    <string name="msg_encode_contents_failed">Não foi possível codificar o código de barradas apartir dos dados fornecidos.</string>
+    <string name="msg_google_books">Google Livros</string>
+    <string name="msg_google_product">Google Product Search</string>
+    <string name="msg_google_shopper_missing">Google Shopper não está instalado.</string>
+    <string name="msg_install_google_shopper">Google Shopper combina leituras de códigos de barras com preços online e locais, análises e mais sem abrir o navegador. Gostaria de experimentar?</string>
+    <string name="msg_intent_failed">Desculpe, a aplicação solicitada não pode ser iniciada. O conteúdo do código de barras poderá ser inválido.</string>
+    <string name="msg_redirect">Redirecionar</string>
+    <string name="msg_sbc_book_not_searchable">Desculpe, este livro não é pesquisável.</string>
+    <string name="msg_sbc_failed">Desculpe, foi encontrado um erro na pesquisa.</string>
+    <string name="msg_sbc_no_page_returned">Nenhuma página obtida</string>
+    <string name="msg_sbc_page">Página</string>
+    <string name="msg_sbc_results">Resultados</string>
+    <string name="msg_sbc_searching_book">A procurar livro\u2026</string>
+    <string name="msg_sbc_snippet_unavailable">Trecho não disponível</string>
+    <string name="msg_sbc_unknown_page">Página desconhecida</string>
+    <string name="msg_share_explanation">Pode partilhar dados exibindo um código de barras no seu ecrã e lendo-o com outro telemóvel</string>
+    <string name="msg_share_subject_line">Aqui estão os conteúdos do código de barras lido</string>
+    <string name="msg_share_text">Ou introduza algum texto e pressione Enter</string>
+    <string name="msg_sure">Tem a certeza?</string>
+    <string name="msg_unmount_usb">Desculpe, o cartão SD não está disponível.</string>
+    <string name="networkSettingsTitleWLServerUrl">Definições de Rede</string>
+    <string msgid="2132213647576279742" name="place_autocomplete_clear_button">"Limpar pesquisa"</string>
+    <string msgid="4600782048316473865" name="place_autocomplete_search_hint">"Pesquisar"</string>
+    <string name="preferences_actions_title">Quando o código de barras é encontrado\u2026</string>
+    <string name="preferences_auto_focus_title">Usar foco automático</string>
+    <string name="preferences_bulk_mode_summary">Ler e guardar códigos de barras continuamente</string>
+    <string name="preferences_bulk_mode_title">Modo em massa</string>
+    <string name="preferences_copy_to_clipboard_title">Copiar para a área de transferência</string>
+    <string formatted="false" name="preferences_custom_product_search_summary">Substituições: %s = conteúdos, %f = formato, %t = tipo</string>
+    <string name="preferences_custom_product_search_title">Pesquisa personalizada de URL</string>
+    <string name="preferences_decode_1D_title">Código de barras 1D</string>
+    <string name="preferences_decode_Data_Matrix_title">Data Matrix</string>
+    <string name="preferences_decode_QR_title">QR Codes</string>
+    <string name="preferences_device_bug_workarounds_title">Soluções alternativas de dispositivos com erros</string>
+    <string name="preferences_disable_continuous_focus_summary">Use apenas o modo de focagem padrão</string>
+    <string name="preferences_disable_continuous_focus_title">No foco contínuo</string>
+    <string name="preferences_disable_exposure_title">Nenhuma exposição</string>
+    <string name="preferences_front_light_summary">Melhora a leitura em luz fraca em alguns telefones, mas pode causar clarões. Não disponível em certos dispositivos.</string>
+    <string name="preferences_front_light_title">Usar luz da frente</string>
+    <string name="preferences_general_title">Definições Gerais</string>
+    <string name="preferences_name">Definições</string>
+    <string name="preferences_play_beep_title">Apitar</string>
+    <string name="preferences_remember_duplicates_summary">Guardar pesquisas múltiplas do mesmo código de barras no histórico</string>
+    <string name="preferences_remember_duplicates_title">Lembrar duplicados</string>
+    <string name="preferences_result_title">Definições do resultado</string>
+    <string name="preferences_scanning_title">Quando procurar por códigos de barras, descodificar\u2026</string>
+    <string name="preferences_search_country">País busca</string>
+    <string name="preferences_supplemental_summary">Tentar recuperar mais informação sobre os conteúdos dos códigos de barras</string>
+    <string name="preferences_supplemental_title">Recuperar mais informação</string>
+    <string name="preferences_try_bsplus">Tente Barcode Scanner+</string>
+    <string name="preferences_try_bsplus_summary">Aprimorado com novos recursos e interface</string>
+    <string name="preferences_vibrate_title">Vibrar</string>
+    <string name="result_address_book">Info de contacto encontrada</string>
+    <string name="result_calendar">Evento de calendário encontrado</string>
+    <string name="result_email_address">Endereço de e-mail encontrado</string>
+    <string name="result_geo">Coordenadas geográficas encontradas</string>
+    <string name="result_isbn">Livro encontrado</string>
+    <string name="result_product">Produto encontrado</string>
+    <string name="result_sms">Endereço SMS encontrado</string>
+    <string name="result_tel">Número de telefone encontrado</string>
+    <string name="result_text">Texto simples encontrado</string>
+    <string name="result_uri">URL encontrado</string>
+    <string name="result_wifi">Configuração WLAN encontrados</string>
+    <string name="sbc_name">Pesquisa Google Book</string>
+    <string name="search">Procurar</string>
+    <string name="serverAddress">Endereço do Servidor</string>
+    <string name="share_name">Partilhar por código de barras</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="summaryWLServerUrl">Altere a URL do servidor: http[s]://domínio ou endereço IP[:porta][/raiz de contexto]</string>
+    <string name="titleInvalidWLServerUrl">URL inválida</string>
+    <string name="titleWLServerUrl">URL do Servidor</string>
+    <string msgid="4184147110658930238" name="wallet_buy_button_place_holder">"Comprar com o Google"</string>
+    <string name="wifi_changing_network">Solicitando ligação à rede\u2026</string>
+    <string name="wifi_ssid_label">Nome da Rede</string>
+    <string name="wifi_type_label">Tipo</string>
+    <string name="wlAppIdTitle">ID do Aplicativo</string>
+    <string name="wlAppVersionTitle">Versão do Aplicativo</string>
+    <string name="wlWebResourcesCategory">Recursos da Web</string>
+</resources>

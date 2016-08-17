@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/*
+ ******************************************************************
+ * Licensed Materials - Property of IBM
+ *
+ * WebSphere Commerce
+ *
+ * (C) Copyright IBM Corp. 2013 All Rights Reserved.
+ *
+ * US Government Users Restricted Rights - Use, duplication or
+ * disclosure restricted by GSA ADP Schedule Contract with
+ * IBM Corp.
+ *******************************************************************
+ *
+ *******************************************************************
+ * The sample contained herein is provided to you "AS IS".
+ *
+ * It is furnished by IBM as a simple example and has not been  
+ * thoroughly tested
+ * under all conditions.  IBM, therefore, cannot guarantee its 
+ * reliability, serviceability or functionality.  
+ *
+ * This sample may include the names of individuals, companies, brands 
+ * and products in order to illustrate concepts as completely as 
+ * possible.  All of these names
+ * are fictitious and any similarity to the names and addresses used by 
+ * actual persons 
+ * or business enterprises is entirely coincidental.
+ *******************************************************************
+*/
+-->
+<resources>  
+  <!-- General purpose strings -->
+  <string name="error">Hata</string>
+  <string name="close">Kapat</string>
+  <string name="loading">Yükleniyor ...</string>
+  <string name="search">Ara</string>
+  
+  <!--  Settings Screen strings -->
+  <string name="summaryWLServerUrl">Sunucu URL adresini değiştirin: http[s]://etki alanı ya da IP adresi[:kapı][/bağlam kökü]</string>
+  <string name="titleWLServerUrl">Sunucu URL Adresi</string>
+  <string name="networkSettingsTitleWLServerUrl">Ağ Ayarları</string>
+  <string name="OKTitleWLServerUrl">Tamam</string>
+  <string name="titleInvalidWLServerUrl">Geçersiz URL</string>
+  <string name="errorInvalidWLServerUrl">geçerli bir URL değil. Geçerli biçim şöyledir:  http[s]://etki alanı ya da IP adresi[:kapı][/bağlam kökü]</string>
+  <string name="serverAddress">Sunucu Adresi</string>
+  <string name="changeServerAddress">Sunucu URL Adresini Değiştir</string>
+  
+  <!--  Settings Screen: Web Resources category -->
+  <string name="wlWebResourcesCategory">Web Kaynakları</string>
+  <string name="wlAppIdTitle">Uyg Tnt</string>
+  <string name="wlAppVersionTitle">Uyg Sürümü</string>
+  <string name="downloadingWebResourcesMessage">Uygulama kaynakları karşıdan yükleniyor (ilerleme kilobyte olarak)</string>
+  
+  <!-- Direct Update -->
+  <string name="directUpdateDownloadingMessage">Uygulama güncellemesi karşıdan yükleniyor (ilerleme kilobyte olarak)</string>
+  
+  <!-- Application Dialog strings -->
+  <string name="addressTitle">Adres</string>
+  
+  <!-- Error messages -->
+  <string name="errorGeneric">Uygulama durdurulacak. Beklenmeyen bir kural dışı durum oluştu: </string>
+  <string name="errorConnectionTimeout">Sunucu bağlantısı zamanaşımına uğradı.</string>
+  <string name="errorBarcodeScanProblem">Çubuk kod taranırken bir hata oluştu. Taramayı yeniden deneyin.</string>
+  <string name="errorBarcodeScanLaunch">Çubuk kod tarayıcı başlatılırken hata oluştu.</string>
+  <string name="errorContactsLaunch">İletişim bilgilerinize erişilirken hata oluştu.</string>
+  <string name="errorMapsLaunch">Haritalar başlatılırken hata oluştu.</string>
+</resources>

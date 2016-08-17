@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/*
+ ******************************************************************
+ * Licensed Materials - Property of IBM
+ *
+ * WebSphere Commerce
+ *
+ * (C) Copyright IBM Corp. 2013 All Rights Reserved.
+ *
+ * US Government Users Restricted Rights - Use, duplication or
+ * disclosure restricted by GSA ADP Schedule Contract with
+ * IBM Corp.
+ *******************************************************************
+ *
+ *******************************************************************
+ * The sample contained herein is provided to you "AS IS".
+ *
+ * It is furnished by IBM as a simple example and has not been  
+ * thoroughly tested
+ * under all conditions.  IBM, therefore, cannot guarantee its 
+ * reliability, serviceability or functionality.  
+ *
+ * This sample may include the names of individuals, companies, brands 
+ * and products in order to illustrate concepts as completely as 
+ * possible.  All of these names
+ * are fictitious and any similarity to the names and addresses used by 
+ * actual persons 
+ * or business enterprises is entirely coincidental.
+ *******************************************************************
+*/
+-->
+<resources>  
+  <!-- General purpose strings -->
+  <string name="error">שגיאה</string>
+  <string name="close">סגירה</string>
+  <string name="loading">טעינה...</string>
+  <string name="search">חיפוש</string>
+  
+  <!--  Settings Screen strings -->
+  <string name="summaryWLServerUrl">שינוי URL השרת:‏ ‎http[s]://domain or IP address[:port][/context root]‎</string>
+  <string name="titleWLServerUrl">URL שרת</string>
+  <string name="networkSettingsTitleWLServerUrl">הגדרות רשת</string>
+  <string name="OKTitleWLServerUrl">אישור</string>
+  <string name="titleInvalidWLServerUrl">URL לא חוקי</string>
+  <string name="errorInvalidWLServerUrl">אינו URL חוקי.‏ מבנה חוקי הוא:‏ ‎http[s]://domain or IP address[:port][/context root]‎</string>
+  <string name="serverAddress">כתובת שרת</string>
+  <string name="changeServerAddress">שינוי כתובת השרת</string>
+  
+  <!--  Settings Screen: Web Resources category -->
+  <string name="wlWebResourcesCategory">משאבי רשת</string>
+  <string name="wlAppIdTitle">זיהוי יישום</string>
+  <string name="wlAppVersionTitle">גרסת יישום</string>
+  <string name="downloadingWebResourcesMessage">הורדת משאבי יישום (התקדמות בקילובתים)</string>
+  
+  <!-- Direct Update -->
+  <string name="directUpdateDownloadingMessage">הורדת עדכון יישום (התקדמות בקילובתים)</string>
+  
+  <!-- Application Dialog strings -->
+  <string name="addressTitle">כתובת</string>
+  
+  <!-- Error messages -->
+  <string name="errorGeneric">היישום ייעצר. אירעה שגיאה לא צפויה:‏ </string>
+  <string name="errorConnectionTimeout">החיבור לרשת חרג ממגבלת הזמן שלו.</string>
+  <string name="errorBarcodeScanProblem">אירעה שגיאה בסריקת הברקוד. נסו לסרוק שוב.</string>
+  <string name="errorBarcodeScanLaunch">אירעה שגיאה בשיגור סורק הברקודים.</string>
+  <string name="errorContactsLaunch">אירעה שגיאה בגישה אל אנשי הקשר שלכם.</string>
+  <string name="errorMapsLaunch">אירעה שגיאה בשיגור המפות.</string>
+</resources>
