@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ =================================================================
+  Licensed Materials - Property of IBM
+
+  WebSphere Commerce
+
+  (C) Copyright IBM Corp. 2012 All Rights Reserved.
+
+  US Government Users Restricted Rights - Use, duplication or
+  disclosure restricted by GSA ADP Schedule Contract with
+  IBM Corp.
+ =================================================================
+-->
+
+<project name="build project" default="build">
+	
+	<target name="build">
+		<property environment="env" />
+		<property name="ANDROID_SDK" value="d:\WL-Build-Assets\android-sdk" />
+		<property name="WORKLIGHT_INSTALL" value="D:\Progra~1\IBM\Worklight" />
+		<property name="WORKLIGHT_SERVER"  value="http://wcworklight.torolab.ibm.com/" />
+			  
+		<echo message="INTRANET_USER: ${INTRANET_USER}" />
+		<echo message="WORKLIGHT_INSTALL: ${WORKLIGHT_INSTALL}" />
+		<echo message="WORKLIGHT_SERVER: ${WORKLIGHT_SERVER}" />
+		
+		<taskdef resource="com/worklight/ant/defaults.properties">
+			<classpath>
+				<pathelement location="${WORKLIGHT_INSTALL}/WorklightServer/worklight-ant.jar" />
+			</classpath>
+		</taskdef>
+
+		<taskdef name="uploadapps" classname="com.ibm.appcenter.ant.UploadApps">
+			<classpath>
+				<pathelement location="${WORKLIGHT_INSTALL}/ApplicationCenter/tools/applicationcenterdeploytool.jar" />
+				<pathelement location="${WORKLIGHT_INSTALL}/ApplicationCenter/tools/json4j.jar" />
+			</classpath>
+		</taskdef>
+
+		<echo message="Updating app to point to the worklight server" />
+		<replaceregexp file="apps/WCHybrid/application-descriptor.xml" 
+			match="&lt;worklightServerRootURL&gt;.*&lt;/worklightServerRootURL&gt;"
+			replace="&lt;worklightServerRootURL&gt;${WORKLIGHT_SERVER}&lt;/worklightServerRootURL&gt;"
+		/>
+
+		<echo message="Adding timestamp to version.js" />
+		<tstamp>
+			<format property="CURRENT_TIME" pattern="yyyyMMdd-HHmmss"/>
+		</tstamp>
+		<replaceregexp file="apps/WCHybrid/common/js/version.js"
+			match="var versionTimestamp = &quot;(.*)&quot;;"
+			replace="var versionTimestamp = &quot;${CURRENT_TIME}&quot;;"
+		/>
+
+		<echo message="Building Worklight apps" />
+		<app-builder applicationFolder="apps/WCHybrid" nativeProjectPrefix="WCWorkLight" deploy="true" worklightserverhost="${WORKLIGHT_SERVER}worklight/" outputFolder="output" failonerror="true" />
+
+		<echo message="Copying the google play services library" />
+		<available file="${ANDROID_SDK}/extras/google/google_play_services/libproject/google-play-services_lib" type="dir" property="playInstalled" />
+		<fail message="Verify that you have installed the Google Play services package and properly set the ANDROID_SDK variable" unless="playInstalled" />
+		<copy todir="../google-play-services_lib">
+			<fileset dir="${ANDROID_SDK}/extras/google/google_play_services/libproject/google-play-services_lib" />
+		</copy>
+
+		<echo message="Generating the Android build script" />
+		<exec dir="../google-play-services_lib" executable="android.bat">
+			<arg line=" update lib-project -p . --target &quot;Google Inc.:Google APIs:18&quot;" />
+		</exec>
+		<exec dir="apps/WCHybrid/android/native" executable="android.bat">
+			<arg line=" update project -p ." />
+		</exec>
+
+		<echo message="Building the Android native app" />
+		<subant target="debug" buildpath="apps/WCHybrid/android/native" />
+
+		<echo message="Publishing the Android app" />
+		<uploadapps serverPath="${WORKLIGHT_SERVER}" context="applicationcenter" loginUser="${INTRANET_USER}" loginPass="${INTRANET_PW}" file="apps/WCHybrid/android/native/bin/WCHybrid-debug.apk" forceOverwrite="true" />
+	</target>
+</project>

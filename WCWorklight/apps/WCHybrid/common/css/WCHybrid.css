@@ -1,0 +1,172 @@
+/*
+ *-----------------------------------------------------------------
+ * Licensed Materials - Property of IBM
+ *
+ * WebSphere Commerce
+ *
+ * (C) Copyright IBM Corp. 2013 All Rights Reserved.
+ *
+ * US Government Users Restricted Rights - Use, duplication or
+ * disclosure restricted by GSA ADP Schedule Contract with
+ * IBM Corp.
+ *-----------------------------------------------------------------
+ */
+
+//*---------------------------------------------------------------------
+//* The sample contained herein is provided to you "AS IS".
+//*
+//* It is furnished by IBM as a simple example and has not been  
+//* thoroughly tested
+//* under all conditions.  IBM, therefore, cannot guarantee its 
+//* reliability, serviceability or functionality.  
+//*
+//* This sample may include the names of individuals, companies, brands 
+//* and products in order to illustrate concepts as completely as 
+//* possible.  All of these names
+//* are fictitious and any similarity to the names and addresses used by 
+//* actual persons 
+//* or business enterprises is entirely coincidental.
+//*---------------------------------------------------------------------//*
+
+/* Reset CSS */
+a, abbr, address, article, aside, audio, b, blockquote, body, canvas, caption, cite, code, dd, del, details, dfn, dialog, div, dl, dt, em, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, p, pre, q, samp, section, small, span, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, ul, var, video {
+    margin:0;
+    padding:0;
+}
+
+html#WCHybridHtmlContent {
+    height: 100%;
+}
+
+#content {
+    height:100%;
+    min-height:100%;
+    margin:0 auto;
+    width:100%;
+}
+
+.hidden {
+    display:none;
+}
+
+.bg_white {
+    background:#ffffff;
+}
+
+.wrapper {
+    height:100%;
+    min-height:100%;
+    width:auto;
+}
+
+.item_wrapper {
+    margin:4px;
+}
+
+.item_wrapper#app_version {
+    font-size:0.8em;
+}
+
+/* development settings styles */
+.header_logo {
+    background:url('../images/splash.png') no-repeat center;
+    height:38px;
+}
+
+.app_version_value {
+    margin-left:4px;
+}
+
+.required {
+    color:#f26522;
+}
+
+/* splash screen */
+
+.bg_splash {
+    background-color: #ee5204;
+}
+
+.splash_logo_container {
+    height:100%;
+    width:auto;
+    background-repeat: no-repeat;
+}
+
+#slide_text {
+    color:#fff;
+    font-size:18px;
+    position:absolute;
+    text-align:center;
+    top:90%;
+    width:100%;
+}
+    #slide_text:before {
+        content:'';
+        position:absolute;
+        border-bottom:10px solid #fff;
+        border-left:10px solid transparent;
+        border-right:10px solid transparent;
+        border-bottom-color:#fff;
+        left:50%;
+        margin-left:-10px;
+        top:-15px;
+    }
+
+/*@BP-C 1281px+*/
+@media screen and (min-width: 1281px) {
+    #content {
+        width: 100%;
+    }
+    .splash_logo_position {
+        background-position: center 33%;
+    }
+}
+
+/*@BP-B 601px-1280px*/
+@media screen and (max-width: 1280px) {
+    #content {
+        width: 100%;
+    }
+    .splash_logo_position {
+        background-position: center 33%;
+    }
+}
+
+/*@BP-A 0-600px*/
+@media screen and (max-width: 600px) {
+    #content {
+        width: 100%;
+    }
+    .splash_logo_position {
+        background-position: center 22%;
+    }
+}
+
+@media screen and (-webkit-device-pixel-ratio: 0.75),
+   screen and (min-resolution: 72dpi) {
+   .splash_logo {
+        background-image: url('../images/splash_ldpi.png');
+    }
+}
+
+@media screen and (-webkit-device-pixel-ratio: 1.0),
+   screen and (min-resolution: 96dpi) {
+    .splash_logo {
+        background-image: url('../images/splash_mdpi.png');
+    }
+}
+
+@media screen and (-webkit-device-pixel-ratio: 1.5),
+    screen and (min-resolution: 144dpi) {
+    .splash_logo {
+        background-image: url('../images/splash_hdpi.png');
+    }
+}
+
+@media screen and (-webkit-device-pixel-ratio: 2.0),
+    screen and (min-resolution: 192dpi) {
+    .splash_logo {
+        background-image: url('../images/splash_xhdpi.png');
+    }
+}

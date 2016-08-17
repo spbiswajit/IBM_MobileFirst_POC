@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/*
+ ******************************************************************
+ * Licensed Materials - Property of IBM
+ *
+ * WebSphere Commerce
+ *
+ * (C) Copyright IBM Corp. 2013 All Rights Reserved.
+ *
+ * US Government Users Restricted Rights - Use, duplication or
+ * disclosure restricted by GSA ADP Schedule Contract with
+ * IBM Corp.
+ *******************************************************************
+ *
+ *******************************************************************
+ * The sample contained herein is provided to you "AS IS".
+ *
+ * It is furnished by IBM as a simple example and has not been  
+ * thoroughly tested
+ * under all conditions.  IBM, therefore, cannot guarantee its 
+ * reliability, serviceability or functionality.  
+ *
+ * This sample may include the names of individuals, companies, brands 
+ * and products in order to illustrate concepts as completely as 
+ * possible.  All of these names
+ * are fictitious and any similarity to the names and addresses used by 
+ * actual persons 
+ * or business enterprises is entirely coincidental.
+ *******************************************************************
+*/
+-->
+<resources>  
+  <!-- General purpose strings -->
+  <string name="error">Erreur</string>
+  <string name="close">Fermer</string>
+  <string name="loading">Chargement en cours...</string>
+  <string name="search">Rechercher</string>
+  
+  <!--  Settings Screen strings -->
+  <string name="summaryWLServerUrl">Changer l\'URL de serveur : http[s]://domaine ou adresse IP[:port][/racine de contexte]</string>
+  <string name="titleWLServerUrl">URL de serveur</string>
+  <string name="networkSettingsTitleWLServerUrl">Paramètres réseau</string>
+  <string name="OKTitleWLServerUrl">OK</string>
+  <string name="titleInvalidWLServerUrl">URL incorrecte</string>
+  <string name="errorInvalidWLServerUrl">n\'est pas une URL valide. Le format valide est http[s]://domaine ou adresse IP[:port][/racine de contexte]</string>
+  <string name="serverAddress">Adresse de serveur</string>
+  <string name="changeServerAddress">Changer l\'URL de serveur</string>
+  
+  <!--  Settings Screen: Web Resources category -->
+  <string name="wlWebResourcesCategory">Ressources Web</string>
+  <string name="wlAppIdTitle">ID de l\'application</string>
+  <string name="wlAppVersionTitle">Version de l\'application</string>
+  <string name="downloadingWebResourcesMessage">Téléchargement des ressources d\'application (progression exprimée en kilooctets)</string>
+  
+  <!-- Direct Update -->
+  <string name="directUpdateDownloadingMessage">Téléchargement de la mise à jour d\'application (progression exprimée en kilooctets)</string>
+  
+  <!-- Application Dialog strings -->
+  <string name="addressTitle">Adresse</string>
+  
+  <!-- Error messages -->
+  <string name="errorGeneric">L\'application va se fermer. Une exception inattendue s\'est produite : </string>
+  <string name="errorConnectionTimeout">La connexion au serveur a expiré.</string>
+  <string name="errorBarcodeScanProblem">Une erreur est survenue lors de l\'analyse du code à barres. Essayez de l\'analyser à nouveau.</string>
+  <string name="errorBarcodeScanLaunch">Une erreur est survenue lors du lancement de l\'analyseur de codes à barres.</string>
+  <string name="errorContactsLaunch">Une erreur est survenue lors de l\'accès à vos contacts.</string>
+  <string name="errorMapsLaunch">Une erreur est survenue lors du lancement des mappes.</string>
+</resources>

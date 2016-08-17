@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/*
+ ******************************************************************
+ * Licensed Materials - Property of IBM
+ *
+ * WebSphere Commerce
+ *
+ * (C) Copyright IBM Corp. 2013 All Rights Reserved.
+ *
+ * US Government Users Restricted Rights - Use, duplication or
+ * disclosure restricted by GSA ADP Schedule Contract with
+ * IBM Corp.
+ *******************************************************************
+ *
+ *******************************************************************
+ * The sample contained herein is provided to you "AS IS".
+ *
+ * It is furnished by IBM as a simple example and has not been  
+ * thoroughly tested
+ * under all conditions.  IBM, therefore, cannot guarantee its 
+ * reliability, serviceability or functionality.  
+ *
+ * This sample may include the names of individuals, companies, brands 
+ * and products in order to illustrate concepts as completely as 
+ * possible.  All of these names
+ * are fictitious and any similarity to the names and addresses used by 
+ * actual persons 
+ * or business enterprises is entirely coincidental.
+ *******************************************************************
+*/
+-->
+<resources>  
+  <!-- General purpose strings -->
+  <string name="error">エラー</string>
+  <string name="close">クローズ</string>
+  <string name="loading">ロードしています ...</string>
+  <string name="search">検索 </string>
+  
+  <!--  Settings Screen strings -->
+  <string name="summaryWLServerUrl">サーバー URL の変更: http[s]://ドメインまたは IP アドレス[:ポート][/コンテキスト・ルート]</string>
+  <string name="titleWLServerUrl">サーバー URL
+</string>
+  <string name="networkSettingsTitleWLServerUrl">ネットワーク設定</string>
+  <string name="OKTitleWLServerUrl">OK</string>
+  <string name="titleInvalidWLServerUrl">無効な URL</string>
+  <string name="errorInvalidWLServerUrl">は有効な URL ではありません。 有効な形式は、http[s]://ドメインまたは IP アドレス[:ポート][/コンテキスト・ルート] です。</string>
+  <string name="serverAddress">サーバー・アドレス</string>
+  <string name="changeServerAddress">サーバー URL の変更</string>
+  
+  <!--  Settings Screen: Web Resources category -->
+  <string name="wlWebResourcesCategory">Web リソース</string>
+  <string name="wlAppIdTitle">アプリケーション ID</string>
+  <string name="wlAppVersionTitle">アプリケーション・バージョン</string>
+  <string name="downloadingWebResourcesMessage">アプリケーション・リソースをダウンロード中 (進行状況 (キロバイト単位))</string>
+  
+  <!-- Direct Update -->
+  <string name="directUpdateDownloadingMessage">アプリケーション更新をダウンロード中 (進行状況 (キロバイト単位))</string>
+  
+  <!-- Application Dialog strings -->
+  <string name="addressTitle">住所 </string>
+  
+  <!-- Error messages -->
+  <string name="errorGeneric">アプリケーションは停止します。予期しなかった例外が発生しました: </string>
+  <string name="errorConnectionTimeout">サーバー接続がタイムアウトになりました。</string>
+  <string name="errorBarcodeScanProblem">バーコード・スキャン中にエラーが発生しました。スキャンをもう一度やり直してください。</string>
+  <string name="errorBarcodeScanLaunch">バーコード・スキャナーの起動時にエラーが発生しました。</string>
+  <string name="errorContactsLaunch">連絡先へのアクセス中にエラーが発生しました。</string>
+  <string name="errorMapsLaunch">マップの起動時にエラーが発生しました。</string>
+</resources>

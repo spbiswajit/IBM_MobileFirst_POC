@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/*
+ ******************************************************************
+ * Licensed Materials - Property of IBM
+ *
+ * WebSphere Commerce
+ *
+ * (C) Copyright IBM Corp. 2013 All Rights Reserved.
+ *
+ * US Government Users Restricted Rights - Use, duplication or
+ * disclosure restricted by GSA ADP Schedule Contract with
+ * IBM Corp.
+ *******************************************************************
+ *
+ *******************************************************************
+ * The sample contained herein is provided to you "AS IS".
+ *
+ * It is furnished by IBM as a simple example and has not been  
+ * thoroughly tested
+ * under all conditions.  IBM, therefore, cannot guarantee its 
+ * reliability, serviceability or functionality.  
+ *
+ * This sample may include the names of individuals, companies, brands 
+ * and products in order to illustrate concepts as completely as 
+ * possible.  All of these names
+ * are fictitious and any similarity to the names and addresses used by 
+ * actual persons 
+ * or business enterprises is entirely coincidental.
+ *******************************************************************
+*/
+-->
+<resources>  
+  <!-- General purpose strings -->
+  <string name="error">Errore</string>
+  <string name="close">Chiudi</string>
+  <string name="loading">Caricamento in corso...</string>
+  <string name="search">Cerca</string>
+  
+  <!--  Settings Screen strings -->
+  <string name="summaryWLServerUrl">Modificare l\'URL del server: http[s]://dominio o indirizzo IP [:port][/context root]</string>
+  <string name="titleWLServerUrl">URL server</string>
+  <string name="networkSettingsTitleWLServerUrl">Impostazioni di rete</string>
+  <string name="OKTitleWLServerUrl">OK</string>
+  <string name="titleInvalidWLServerUrl">URL non valido</string>
+  <string name="errorInvalidWLServerUrl">non è un URL valido. Il formato valido è http[s]://dominio o indirizzo IP [:port][/context root]</string>
+  <string name="serverAddress">Indirizzo server</string>
+  <string name="changeServerAddress">Modifica URL server</string>
+  
+  <!--  Settings Screen: Web Resources category -->
+  <string name="wlWebResourcesCategory">Risorse Web</string>
+  <string name="wlAppIdTitle">ID applicazione</string>
+  <string name="wlAppVersionTitle">Versione applicazione</string>
+  <string name="downloadingWebResourcesMessage">Download delle risorse dell\'applicazione (avanzamento in kilobyte)</string>
+  
+  <!-- Direct Update -->
+  <string name="directUpdateDownloadingMessage">Download dell\'aggiornamento dell\'applicazione (avanzamento in kilobyte)</string>
+  
+  <!-- Application Dialog strings -->
+  <string name="addressTitle">Indirizzo</string>
+  
+  <!-- Error messages -->
+  <string name="errorGeneric">L\'applicazione verrà arrestata. Si è verificata un\'eccezione imprevista: </string>
+  <string name="errorConnectionTimeout">La connessione al server è andata in timeout.</string>
+  <string name="errorBarcodeScanProblem">Si è verificato un errore durante la scansione del codice a barre. Tentare nuovamente la scansione.</string>
+  <string name="errorBarcodeScanLaunch">Si è verificato un errore durante l\'avvio dello scanner del codice a barre.</string>
+  <string name="errorContactsLaunch">Si è verificato un errore durante l\'accesso ai contatti.</string>
+  <string name="errorMapsLaunch">Si è verificato un errore durante l\'avvio delle mappe.</string>
+</resources>

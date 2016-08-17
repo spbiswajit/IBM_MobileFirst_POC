@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+/*
+ * Licensed Materials - Property of IBM
+ *
+ * WebSphere Commerce
+ *
+ * (C) Copyright IBM Corp. 2013, 2014 All Rights Reserved.
+ *
+ * US Government Users Restricted Rights - Use, duplication or
+ * disclosure restricted by GSA ADP Schedule Contract with
+ * IBM Corp.
+ */
+
+//* The sample contained herein is provided to you "AS IS".
+//*
+//* It is furnished by IBM as a simple example and has not been  
+//* thoroughly tested
+//* under all conditions.  IBM, therefore, cannot guarantee its 
+//* reliability, serviceability or functionality.  
+//*
+//* This sample may include the names of individuals, companies, brands 
+//* and products in order to illustrate concepts as completely as 
+//* possible.  All of these names
+//* are fictitious and any similarity to the names and addresses used by 
+//* actual persons 
+//* or business enterprises is entirely coincidental.
+--><!-- Attribute "id" must be identical to application folder name --><application xmlns="http://www.worklight.com/application-descriptor" id="WCHybrid" platformVersion="7.1.0.00.20160513-1006">
+    <displayName>Aurora WLHybrid</displayName>
+    <description>Aurora WLHybrid Store</description>
+    <author>
+        <name>IBM</name>
+        <email>WebSphere Commerce</email>
+        <homepage>http://www.ibm.com</homepage>
+        <copyright>Copyright IBM 2014</copyright>
+    </author>
+    <mainFile>WCHybrid.html</mainFile>
+    <features>
+        <JSONStore/>
+        <Analytics/>
+    </features>
+    <thumbnailImage>common/images/ic_launcher_aurora.png</thumbnailImage>
+    <iphone bundleId="com.WCHybrid" version="1.0">
+        <worklightSettings include="false"/>
+    </iphone>
+    <directUpdateAuthenticityPublicKey>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApdyZZMUNBqseZT4EA4hQJtyw5qD5DZrl3dPfreX6oK23w1Cih5x74iHHE811IFXrg0OPZYAvWTGoQHphllalmhrBU4aM9qHn7F4sgJUKNtGncFMXiIMCBJ9S/N66GQPJVWSK0Df6wyzf012XmrORrgZqZdEChsR5DF1EGhoISzeSKcLoGEmFZ7sxwrqHpMR8fvBLA2Q6TOdKMUmncEKN9VECFZjQKa8DrjGDeIQ7AzFZxVJSa8T6ZHw9ZN9dfpCOXPjJHahsi5vhvodf5tQ7sJZeIie4v1QC9ke+cdhBvCeCIKLGkuXN4dm7quD/C6dyCYJNZHXCiuB/2+Er+ZYnswIDAQAB</directUpdateAuthenticityPublicKey>
+    <android version="1.18">
+        <worklightSettings include="true"/>
+    </android>
+</application>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/*
+ ******************************************************************
+ * Licensed Materials - Property of IBM
+ *
+ * WebSphere Commerce
+ *
+ * (C) Copyright IBM Corp. 2013 All Rights Reserved.
+ *
+ * US Government Users Restricted Rights - Use, duplication or
+ * disclosure restricted by GSA ADP Schedule Contract with
+ * IBM Corp.
+ *******************************************************************
+ *
+ *******************************************************************
+ * The sample contained herein is provided to you "AS IS".
+ *
+ * It is furnished by IBM as a simple example and has not been  
+ * thoroughly tested
+ * under all conditions.  IBM, therefore, cannot guarantee its 
+ * reliability, serviceability or functionality.  
+ *
+ * This sample may include the names of individuals, companies, brands 
+ * and products in order to illustrate concepts as completely as 
+ * possible.  All of these names
+ * are fictitious and any similarity to the names and addresses used by 
+ * actual persons 
+ * or business enterprises is entirely coincidental.
+ *******************************************************************
+*/
+-->
+<resources>  
+  <!-- General purpose strings -->
+  <string name="error">错误</string>
+  <string name="close">关闭</string>
+  <string name="loading">正在装入...</string>
+  <string name="search">搜索</string>
+  
+  <!--  Settings Screen strings -->
+  <string name="summaryWLServerUrl">更改服务器 URL：http[s]://domain or IP address[:port][/context root]</string>
+  <string name="titleWLServerUrl">服务器 URL
+</string>
+  <string name="networkSettingsTitleWLServerUrl">网络设置</string>
+  <string name="OKTitleWLServerUrl">确定</string>
+  <string name="titleInvalidWLServerUrl">无效的 URL</string>
+  <string name="errorInvalidWLServerUrl">不是有效的 URL。有效的格式为 http[s]://domain or IP address[:port][/context root]</string>
+  <string name="serverAddress">服务器地址</string>
+  <string name="changeServerAddress">更改服务器 URL</string>
+  
+  <!--  Settings Screen: Web Resources category -->
+  <string name="wlWebResourcesCategory">Web 资源</string>
+  <string name="wlAppIdTitle">应用程序标识</string>
+  <string name="wlAppVersionTitle">应用程序版本</string>
+  <string name="downloadingWebResourcesMessage">下载应用程序资源（进度以千字节计）</string>
+  
+  <!-- Direct Update -->
+  <string name="directUpdateDownloadingMessage">下载应用程序更新（进度以千字节计）</string>
+  
+  <!-- Application Dialog strings -->
+  <string name="addressTitle">地址</string>
+  
+  <!-- Error messages -->
+  <string name="errorGeneric">此应用程序将停止。发生意外异常：</string>
+  <string name="errorConnectionTimeout">服务器连接已超时。</string>
+  <string name="errorBarcodeScanProblem">扫描条形码时发生了错误。请重试扫描。</string>
+  <string name="errorBarcodeScanLaunch">启动条形码扫描仪时发生了错误。</string>
+  <string name="errorContactsLaunch">访问您的联系人信息时发生了错误。</string>
+  <string name="errorMapsLaunch">启动映射时发生了错误。</string>
+</resources>

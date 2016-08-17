@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/*
+ ******************************************************************
+ * Licensed Materials - Property of IBM
+ *
+ * WebSphere Commerce
+ *
+ * (C) Copyright IBM Corp. 2013 All Rights Reserved.
+ *
+ * US Government Users Restricted Rights - Use, duplication or
+ * disclosure restricted by GSA ADP Schedule Contract with
+ * IBM Corp.
+ *******************************************************************
+ *
+ *******************************************************************
+ * The sample contained herein is provided to you "AS IS".
+ *
+ * It is furnished by IBM as a simple example and has not been  
+ * thoroughly tested
+ * under all conditions.  IBM, therefore, cannot guarantee its 
+ * reliability, serviceability or functionality.  
+ *
+ * This sample may include the names of individuals, companies, brands 
+ * and products in order to illustrate concepts as completely as 
+ * possible.  All of these names
+ * are fictitious and any similarity to the names and addresses used by 
+ * actual persons 
+ * or business enterprises is entirely coincidental.
+ *******************************************************************
+*/
+-->
+<resources>  
+  <!-- General purpose strings -->
+  <string name="error">Eroare</string>
+  <string name="close">Închidere</string>
+  <string name="loading">Încărcare ...</string>
+  <string name="search">Căutare</string>
+  
+  <!--  Settings Screen strings -->
+  <string name="summaryWLServerUrl">Modificaţi URL server: http[s]://domeniu sau Adresă IP[:port][/rădăcină context]</string>
+  <string name="titleWLServerUrl">URL server</string>
+  <string name="networkSettingsTitleWLServerUrl">Setări de reţea</string>
+  <string name="OKTitleWLServerUrl">OK</string>
+  <string name="titleInvalidWLServerUrl">URL invalid</string>
+  <string name="errorInvalidWLServerUrl">nu este un URL valid. Formatul valid este http[s]://domeniu sau Adresă IP[:port][/rădăcină context]</string>
+  <string name="serverAddress">Adresă server</string>
+  <string name="changeServerAddress">Modificare URL server</string>
+  
+  <!--  Settings Screen: Web Resources category -->
+  <string name="wlWebResourcesCategory">Resurse web</string>
+  <string name="wlAppIdTitle">ID aplicaţie</string>
+  <string name="wlAppVersionTitle">Versiune aplicaţie</string>
+  <string name="downloadingWebResourcesMessage">Descărcare resurse aplicaţie (progres în KB)</string>
+  
+  <!-- Direct Update -->
+  <string name="directUpdateDownloadingMessage">Descărcare actualizare aplicaţie (progres în KB)</string>
+  
+  <!-- Application Dialog strings -->
+  <string name="addressTitle">Adresa</string>
+  
+  <!-- Error messages -->
+  <string name="errorGeneric">Aplicaţia va fi oprită. A apărut o excepţie neaşteptată: </string>
+  <string name="errorConnectionTimeout">Conexiunea la server a generat timeout.</string>
+  <string name="errorBarcodeScanProblem">A apărut o eroare în timpul scanării codurilor de bare. Încercaţi scanarea din nou.</string>
+  <string name="errorBarcodeScanLaunch">A survenit o eroare în timpul lansării scanerului de coduri de bare.</string>
+  <string name="errorContactsLaunch">A survenit o eroare în timpul accesării contactelor dumneavoastră.</string>
+  <string name="errorMapsLaunch">A survenit o eroare în timpul lansării mapărilor.</string>
+</resources>

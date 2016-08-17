@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/*
+ ******************************************************************
+ * Licensed Materials - Property of IBM
+ *
+ * WebSphere Commerce
+ *
+ * (C) Copyright IBM Corp. 2013 All Rights Reserved.
+ *
+ * US Government Users Restricted Rights - Use, duplication or
+ * disclosure restricted by GSA ADP Schedule Contract with
+ * IBM Corp.
+ *******************************************************************
+ *
+ *******************************************************************
+ * The sample contained herein is provided to you "AS IS".
+ *
+ * It is furnished by IBM as a simple example and has not been  
+ * thoroughly tested
+ * under all conditions.  IBM, therefore, cannot guarantee its 
+ * reliability, serviceability or functionality.  
+ *
+ * This sample may include the names of individuals, companies, brands 
+ * and products in order to illustrate concepts as completely as 
+ * possible.  All of these names
+ * are fictitious and any similarity to the names and addresses used by 
+ * actual persons 
+ * or business enterprises is entirely coincidental.
+ *******************************************************************
+*/
+-->
+<resources>  
+  <!-- General purpose strings -->
+  <string name="error">خطأ</string>
+  <string name="close">‏اغلاق‏</string>
+  <string name="loading">تحميل ...</string>
+  <string name="search">بحث</string>
+  
+  <!--  Settings Screen strings -->
+  <string name="summaryWLServerUrl">تغيير عنوان URL لوحدة الخدمة: http[s]://domain أو عنوان IP [:port][/context root]</string>
+  <string name="titleWLServerUrl">عنوان URL لوحدة الخدمة</string>
+  <string name="networkSettingsTitleWLServerUrl">محددات شبكة الاتصالات</string>
+  <string name="OKTitleWLServerUrl">حسنا</string>
+  <string name="titleInvalidWLServerUrl">عنوان URL غير صحيح</string>
+  <string name="errorInvalidWLServerUrl">لا يعد عنوان URL صحيحا. النسق الصحيح هو http[s]://domain أو عنوان IP [:port][/context root]</string>
+  <string name="serverAddress">عنوان وحدة الخدمة</string>
+  <string name="changeServerAddress">تغيير عنوان URL لوحدة الخدمة</string>
+  
+  <!--  Settings Screen: Web Resources category -->
+  <string name="wlWebResourcesCategory">مصادر الانترنت</string>
+  <string name="wlAppIdTitle">كود تعريف التطبيق</string>
+  <string name="wlAppVersionTitle">نسخة التطبيق</string>
+  <string name="downloadingWebResourcesMessage">تحميل مصادر التطبيق (مدى التقدم بالكيلوبايت)</string>
+  
+  <!-- Direct Update -->
+  <string name="directUpdateDownloadingMessage">تحميل تحديث التطبيق (مدى التقدم بالكيلوبايت)</string>
+  
+  <!-- Application Dialog strings -->
+  <string name="addressTitle">العنوان</string>
+  
+  <!-- Error messages -->
+  <string name="errorGeneric">سيتوقف التطبيق، حدث خطأ غير متوقع: </string>
+  <string name="errorConnectionTimeout">انتهى وقت وصلة وحدة الخدمة. </string>
+  <string name="errorBarcodeScanProblem">حدث خطأ أثناء فحص الباركود، حاول الفحص فيما بعد.</string>
+  <string name="errorBarcodeScanLaunch">حدث خطأ أثناء بدء الماسح الضوئي للباركود.</string>
+  <string name="errorContactsLaunch">حدث خطأ أثناء التوصل لجهات الاتصال لديك.</string>
+  <string name="errorMapsLaunch">حدث خطأ أثناء بدء تشغيل الخرائط.</string>
+</resources>
