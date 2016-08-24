@@ -1,0 +1,10 @@
+Files changed in sligro project for mobile first
+C:\IBM\WCDE_ENT70\workspace\Stores\WebContent\SligroStorefrontAssetStore\WorklightHybrid
+
+C:\IBM\WCDE_ENT70\workspace\Stores\WebContent\SligroStorefrontAssetStore\Widgets\Header\Header_UI.jspf
+
+C:\IBM\WCDE_ENT70\workspace\Stores\WebContent\SligroStorefrontAssetStore\Widgets\Scanner\Scanner.jsp
+
+C:\IBM\WCDE_ENT70\workspace\Stores\WebContent\SligroStorefrontAssetStore\Common\EnvironmentSetup.jspf
+
+C:\IBM\WCDE_ENT70\workspace\WC\xml\config\com.ibm.commerce.foundation-ext

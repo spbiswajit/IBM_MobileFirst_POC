@@ -1,0 +1,193 @@
+<%-- =================================================================
+  Licensed Materials - Property of IBM
+
+  WebSphere Commerce
+
+  (C) Copyright IBM Corp. 2014 All Rights Reserved.
+
+  US Government Users Restricted Rights - Use, duplication or
+  disclosure restricted by GSA ADP Schedule Contract with
+  IBM Corp.
+ =================================================================
+--%>
+
+<%@taglib uri="http://commerce.ibm.com/coremetrics" prefix="cm"%>
+<%@page import="com.ibm.commerce.bi.BIConfigRegistry"%>  
+<%@page import="com.ibm.commerce.command.CommandContext"%>
+<%@page import="com.ibm.commerce.server.ECConstants"%>
+<flow:ifEnabled feature="Analytics">  
+	<%
+	CommandContext commandContext = (CommandContext) request.getAttribute(ECConstants.EC_COMMANDCONTEXT);
+	Integer storeId = commandContext.getStoreId();
+	pageContext.setAttribute("hostedVar", BIConfigRegistry.getInstance().useHostedLibraries(storeId));
+	%>
+	<script src="${jsAssetsDir}javascript/Analytics.js"></script>
+	<script>
+	dojo.addOnLoad(function() {
+		analyticsJS.storeId = "${storeId}";
+		analyticsJS.catalogId = "${catalogId}";
+		analyticsJS.loadShopCartHandler();
+		analyticsJS.loadPagingHandler(); 
+		analyticsJS.loadProductQuickInfoHandler();
+		analyticsJS.loadStoreLocatorPageViews();
+		analyticsJS.loadWishlistHandler();
+		dojo.require("wc.analytics.CoremetricsEventListener");
+		(new wc.analytics.CoremetricsEventListener()).load(${hostedVar});
+	});
+	</script>
+</flow:ifEnabled>
+<script>var isGuest = ${userType == 'G'};</script>
+
+<script src="${jsAssetsDir}javascript/Widgets/header.js"></script>
+
+<c:set var="signInOutAttributes" value="href='${fn:escapeXml(Logon_LogoutURL)}'" />
+<c:if test="${env_OnBehalfOf}">
+	<c:set var="signInOutAttributes" value="class='nohover default_cursor disabled' aria-disabled='true' " />
+</c:if>
+
+<!--<div id="header" role="banner">
+	-->
+	<div id="header" <c:if test="${_worklightiOSHybridApp}">class="ios"</c:if> role="banner">
+	<c:if test="${(_worklightiOSHybridApp)}">
+		<div id="header_back_button_container"></div>
+	</c:if>
+	<div id="headerRow1">
+		<div id="logo">
+			<%out.flush();%>
+			<%-- Note: for any e-Marketing Spots included on the header page, then the parameter --%>
+			<%--       cacheWithParent should be set to true if the header is dynacached         --%>
+			<c:import url="${env_siteWidgetsDir}com.ibm.commerce.store.widgets.ContentRecommendation/ContentRecommendation.jsp">
+				<c:param name="storeId" value="${storeId}"/>
+				<c:param name="catalogId" value="${catalogId}"/>
+				<c:param name="emsName" value="HeaderStoreLogo_Content"/>
+				<c:param name="contentClickUrl" value="${env_TopCategoriesDisplayURL}"/>
+				<c:param name="marketingSpotBehavior" value="0"/>
+				<c:param name="cacheWithParent" value="true"/>
+			</c:import>
+			<%out.flush();%>
+		</div>
+		<%out.flush();%>
+			<c:import url="${env_jspStoreDir}Widgets/Header/Header_Links.jsp">
+				<c:param name="storeId" value="${storeId}"/>
+				<c:param name="catalogId" value="${catalogId}"/>
+				<c:param name="langId" value="${langId}"/>
+				<c:param name="cacheWithParent" value="false"/>
+				<c:param name="lastCmdName" value="${lastCmdName}"/>
+				<c:param name="StoreLocatorView" value="${StoreLocatorView}"/> 
+				<c:param name="userDisplayName" value="${userDisplayName}"/>
+				<c:param name="SIGN_IN_OUT" value="${SIGN_IN_OUT}"/>
+				<c:param name="signInOutAttributes" value="${signInOutAttributes}"/>
+				<c:param name="WishListDisplayURL" value="${WishListDisplayURL}"/>
+				<c:param name="SavedOrderListDisplayURL" value="${SavedOrderListDisplayURL}"/>
+			</c:import> 
+		<%out.flush();%>
+		</div>
+		</li><c:if test="${_worklightHybridApp}"><li class="separator-false">
+			<fmt:message bundle="${storeText}" key="HYBRID_BARCODE_SCAN" var="HYBRID_BARCODE_SCAN"/>
+			<a id="barcodeScanButton" href="#" role="button" onclick="javascript:BarcodeScanJS.launch();"><span id="barcodeScanButton_ACCE_Label" class="spanacce"><fmt:message bundle="${storeText}" key="HYBRID_BARCODE_SCAN"/></span></a>
+		</li></c:if>
+		<!--<c:if test="${_worklightHybridApp  && !_worklightiOSHybridApp}"><li class="separator-false">
+		<button type="button" id="scanButton" onclick="javascript:doScan();">Scan</button>
+		</li></c:if>
+		<c:if test="${_worklightHybridApp  && _worklightiOSHybridApp}"><li class="separator-false">
+		<button type="button" id="scanButton" onclick="javascript:doScanIos();">Scan using iPhone</button>
+		</li></c:if>
+		-->
+		</ul>
+	</div>
+
+		<!-- Import Header_UI_Cookies jsp -->
+		<%out.flush();%>
+			<c:import url="${env_jspStoreDir}Widgets/Header/Header_UI_Cookies.jsp" >
+				<c:param name="storeId" value="${storeId}"/>
+				<c:param name="catalogId" value="${catalogId}"/>
+				<c:param name="langId" value="${langId}"/>
+				<c:param name="depthAndLimit" value="${depthAndLimit}"/>
+				<c:param name="sligro_user_type" value="${sligro_user_type}"/>
+				<c:param name="uniqueID" value="${department.uniqueID}"/>
+				<c:param name="WishListDisplayURL" value="${WishListDisplayURL}"/>
+			</c:import> 
+		<%out.flush();%>
+		
+		<!-- Dialog box for OCI -->
+		<div id="ociDialog" dojoType="dijit/Dialog" style="display:none;">
+			<div class="widget_site_popup">
+				<div class="middle">
+					<div class="content_left_border">
+						<div class="content_right_border">
+							<div class="content body">
+								<h4 class="underlined"><fmt:message key="OCI_DIALOG_TITLE" bundle="${storeText}"/> </h4>
+								<div class="row">
+									<div class="col12 pAll20">
+										<fmt:message key="OCI_DIALOG_TEXT" bundle="${storeText}"/> 
+									</div>
+								</div>
+								<div class="row">
+									<div class="col12 alignRight">
+										<a href="javascript:void(0);" class="button_primary" onclick="javascript:headerSectionJS.hideOCIMsg();"/><fmt:message key="OCI_DIALOG_YES" bundle="${storeText}"/></a>
+										<a href="javascript:void(0);" class="button_secondary" onclick=""><fmt:message key="OCI_DIALOG_NO" bundle="${storeText}"/></a>
+									</div>
+								</div>
+							</div> 			
+						</div>				
+					</div> 
+				</div>
+			</div>
+		</div>	
+		
+</div>
+
+<script>
+function hideDepartmentsMenu(){
+    dojo.removeClass("departmentsMenu", "active");
+}
+
+dojo.ready(function(){
+    dojo.connect(dojo.byId("DepartmentsMenuCloseButton"), "onclick", hideDepartmentsMenu);
+});
+
+function responsivetopcat() {
+	if (jQuery("#EspdepartmentMenu").length) {
+		jQuery('#departmentsMenu li.moreNav').addClass('hasContent');	
+	 	var $clone = jQuery("#EspdepartmentMenu").clone();
+	 	$clone.appendTo(jQuery('#departmentsMenu li.moreNav')).attr('id', 'moreNav').attr('class', 'departmentMenu');
+	 	$clone.find('ul, li, a, div').removeAttr('id');
+	 	$clone.find('a.departmentButton').attr('class', 'menuLink');
+	 	$clone.find('div.departmentMenu').removeAttr('class');
+	 	$clone.find('.fa-caret-down').remove();
+	}
+}
+jQuery(document).ready(responsivetopcat); 
+
+dojo.addOnLoad(function() {
+	setAjaxRefresh(false); // Default value in header.js is empty/false.
+	if(wc.render.getRefreshControllerById("departmentSubMenu_Controller")){
+		wc.render.getRefreshControllerById("departmentSubMenu_Controller").url = getAbsoluteURL()+"DepartmentDropdownViewRWD?storeId=<c:out value='${storeId}'/>&catalogId=<c:out value='${catalogId}'/>&langId=<c:out value='${langId}'/>";
+	}
+});
+</script>
+
+<script type="text/javascript" src="${jsAssetsDir}javascript/custom.js"></script>
+
+	<!--<script>
+                
+	   function doScan(){
+	       cordova.exec(onScanSuccess, onScanFailure, 'BarcodeScanner', 'scan', []);
+	   }
+	   
+	   function doScanIos(){
+                	//alert('inside scan');
+                   cordova.exec(onScanSuccess, onScanFailure, 'org.apache.cordova.barcodeScanner', 'scan', []);
+                }
+	
+	   function onScanSuccess(result) {
+                  alert("We got a barcode\n" +
+                        "Result: " + result.text + "\n" +
+                        "Format: " + result.format + "\n" +
+                        "Cancelled: " + result.cancelled);
+                }
+
+                function onScanFailure(error) {
+                  alert("Scanning failed: " + error);
+                }
+	</script>-->

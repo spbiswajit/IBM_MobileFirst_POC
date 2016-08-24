@@ -1,0 +1,7 @@
+http://169.44.125.162:9080/
+
+http://aurora.eperium.nl/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10151&urlLangId=-31&beginIndex=0&urlRequestType=Base&categoryId=45102&pageView=grid&langId=-31&catalogId=10101
+
+6
+SLIMSCAN;1;OTHR;2004129000000080001760;6;EOS
+Barcode formatting text:

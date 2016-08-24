@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<_config:Devices
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.ibm.com/xmlns/prod/commerce/foundation/config ../xsd/wc-devices.xsd" xmlns:_config="http://www.ibm.com/xmlns/prod/commerce/foundation/config">
+	<_config:DeviceGroup internalID="-45" channelID="-6">
+		<_config:Device name="Worklight iPad Hybrid" userAgentPattern=".*iPad.*Worklight/.*"/>
+	</_config:DeviceGroup>
+	<_config:DeviceGroup internalID="-43" channelID="-6">
+		<_config:Device name="Worklight iPhone Hybrid" userAgentPattern=".*iPhone.*Worklight/.*"/>
+	</_config:DeviceGroup>
+</_config:Devices>

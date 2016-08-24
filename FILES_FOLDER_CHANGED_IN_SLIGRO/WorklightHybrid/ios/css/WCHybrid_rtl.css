@@ -1,0 +1,254 @@
+/*
+ *-----------------------------------------------------------------
+ * Licensed Materials - Property of IBM
+ *
+ * WebSphere Commerce
+ *
+ * (C) Copyright IBM Corp. 2013, 2014 All Rights Reserved.
+ *
+ * US Government Users Restricted Rights - Use, duplication or
+ * disclosure restricted by GSA ADP Schedule Contract with
+ * IBM Corp.
+ *-----------------------------------------------------------------
+ */
+
+/*---------------------------------------------------------------------
+ * The sample contained herein is provided to you "AS IS".
+ *
+ * It is furnished by IBM as a simple example and has not been  
+ * thoroughly tested
+ * under all conditions.  IBM, therefore, cannot guarantee its 
+ * reliability, serviceability or functionality.  
+ *
+ * This sample may include the names of individuals, companies, brands 
+ * and products in order to illustrate concepts as completely as 
+ * possible.  All of these names
+ * are fictitious and any similarity to the names and addresses used by 
+ * actual persons 
+ * or business enterprises is entirely coincidental.
+ *---------------------------------------------------------------------
+ */
+
+/* iOS Hybrid Styling */
+
+body {
+	top: -100px;
+}
+div#breadcrumb .page_title {
+	border-right: none;
+	margin: 1px 0 0 0;
+}
+#back_link {
+	display: none;
+}
+.ios .header_logo {
+	display: block;
+	background: url('../images/header3.png') no-repeat scroll 0 0 transparent !important;
+	height: 39px;
+	margin: 0 auto;
+	padding-top: 2px;
+	padding-bottom: 3px;
+	width: 159px;
+}
+.ios #header_back_button_container{
+	background:white url('../images/masthead_top_bg_h.png');
+	min-height: 5px;
+	font-size: 12px;
+}
+.ios #header_back_button{
+	min-height: 43px;
+}
+.ios #header_back_button > #back_button{
+	position: absolute;
+}
+.ios #header_back_button_status_bar {
+	padding: 0px 0px 8px 0px;
+}
+.ios #back_button .back_button_container {
+	padding: 8px 8px 0px 0px;
+}
+.ios #back_button .back_button_arrow {
+	background-image: url('../../images/ios_back.png');
+	background-repeat: no-repeat;
+	padding-left: 10px;
+	height: 28px;
+	width: 61px;
+}
+.ios #back_button .back_button_text {
+	position: absolute;
+	font-family: -apple-system-font, Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	height: 29px;
+	padding-left: 8px;
+	padding-right: 20px;
+	line-height: 27px;
+}
+.ios #header_back_button #header_back_button_heading {
+	color: #FFFFFF;
+	font-family: -apple-system-font, Helvetica, Arial, sans-serif;
+	line-height: 27px;
+	text-align: center;
+	padding: 8px 0px 2px 0px;
+	margin-right: 76px;
+	margin-left: 76px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.ios #header_pg_title {
+	color: #666666;
+	font-family: -apple-system-font, Helvetica, Arial, sans-serif;
+	font-size: 19px;
+	font-weight: bold;
+	line-height: 41px;
+	overflow: hidden;
+	text-align: center;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.ios #departmentsButton {
+	background-image: linear-gradient(#B5C1C1, #697474);
+	border: 1px solid #BFBFBF;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Gradient(startColorStr='#B5C1C1', endColorStr='#697474')";
+}
+.ios #departmentsButton > span {
+	border: 1px solid #EAEAEA;
+	color: #FFFFFF;
+}
+.ios #departmentsButton:after {
+	background-position: -141px -1px;
+}
+.ios .header_container {
+	background-color: #F8F8F8;
+	line-height: 41px;
+	text-align: center;
+	width: 100%;
+	border-bottom: 1px solid grey;
+}
+.ios .header_container:after {
+	clear: both;
+}
+.ios .header_container .header_button {
+	color: #157DFB;
+	text-align: center;
+	text-overflow: ellipsis;
+	width: 80px;
+}
+.ios .header_container .button_adjacent {
+	text-overflow: ellipsis;
+	margin: 0 80px;
+}
+.ios .header_container a,
+.ios .header_container a:visited {
+	color: #157DFB;
+}
+
+/* iOS more page styling */
+#ios_more_list {
+	list-style: none;
+	padding: 0;
+}
+#ios_more_list .list_item {
+	line-height: 43px;
+	padding-right: 12px;
+}
+#ios_more_list .list_item:active {
+	background-color: #F8F8F8;
+}
+#ios_more_list .list_item > a > div {
+	color: #000000;
+	font-family: -apple-system-headline, Helvetica, Arial, sans-serif;
+}
+#ios_more_list .list_item > a > .list_item_text {
+	border-bottom: 1px solid #ADAAAD;
+	position: relative;
+}
+#ios_more_list .list_item div:before {
+	padding: 0 8px;
+	position: relative;
+	top: 8px;
+}
+#ios_more_list .list_item .account:before {
+	content: url('../images/ic_menu_account_dark.png');
+}
+#ios_more_list .list_item .signin_account:before {
+	content: url('../images/ic_menu_login_dark.png');
+}
+#ios_more_list .list_item .wishlist:before {
+	content: url('../images/ic_menu_wishlist_dark.png');
+}
+#ios_more_list .list_item .product_compare:before {
+	content: url('../images/ic_menu_compare_dark.png');
+}
+#ios_more_list .list_item .lang_curr:before {
+	content: url('../images/ic_menu_currency_dark.png');
+}
+#ios_more_list .list_item .privacy_policy:before {
+	content: url('../images/ic_menu_privacy_policy_dark.png');
+}
+#ios_more_list .list_item .help:before {
+	content: url('../images/ic_menu_help_dark.png');
+}
+#ios_more_list .list_item .phone_number:before {
+	content: url('../images/ic_menu_phone_dark.png');
+}
+#ios_more_list .list_item_text:after {
+	-webkit-transform: rotate(45deg);
+	border-color: #808080;
+	border-style: solid;
+	border-width: 3px 0px 0px 3px;
+	content: "";
+	position: absolute;
+	top: 16px;
+	left: 12px;
+	width: 10px;
+	height: 10px;
+}
+
+/* iOS language currency page styling */
+#prev_page_button:before {
+	-webkit-transform: rotate(-135deg);
+	border-width: 3px 0px 0px 3px;
+	border-style: solid;
+	border-color: #157DFB;
+	content: '';
+	display: block;
+	height: 10px;
+	right: 10px;
+	position: absolute;
+	top: 14px;
+	width: 10px;
+}
+.ios .selector {
+	border-bottom: 1px solid #C1C4C8;
+	height: 40px;
+	line-height: 40px;
+	margin: 0 12px 0 0;
+	padding: 0 10px;
+}
+.ios .selector:after {
+	clear: both;
+}
+.ios .selector .option_name {
+	font-family: -apple-system-headline, Helvetica, Arial, sans-serif;
+}
+.ios #languageSelection,
+.ios #currencySelection {
+	border: none;
+	color: #157DFB;
+	direction: ltr;
+	float: left;
+	height: 100%;
+	-webkit-appearance: none;
+	background: none;
+}
+
+/* BEGIN MANUAL OVERRIDES */
+#ios_more_list .list_item_text:after {
+	-webkit-transform: rotate(-45deg);
+}
+#prev_page_button:before {
+	-webkit-transform: rotate(135deg);
+}
+/* END MANUAL OVERRIDES */
